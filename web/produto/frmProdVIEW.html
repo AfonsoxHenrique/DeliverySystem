@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cadastrar Produto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="jspProdInserir.jsp" method="POST">
+            <label> Nome do Produto: </label> <br>
+            <input type="text" name="nomeProd">
+         <br>   <label>Peso do Produto: </label> <br>   <select name="medPeso">
+                                                            <option>kg</option>
+                                                            <option>g</option>
+                                                        </select>
+            <input type="text" name="pesoProd">
+         <br>   <label>Volume do Produto: </label> <br> <select name="medVolume">
+                                                            <option>cm³</option>
+                                                            <option>m³</option>
+                                                        </select>
+            <input type="text" name="volumeProd">
+          <br>  <label>Valor do Produto: </label> <br>
+            <input type="text" name="valorProd">
+        
+            
+            <button type="submit">Cadastrar</button>
+    </body>
+</html>

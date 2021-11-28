@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cadastrar Entrega</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="jspEntregaInserir.jsp" method="POST">
+        <label> Id do Remetente: </label> <br>
+            <input type="text" name="idReme">
+         <br> <label>Id do Destinatário: </label> <br>
+            <input type="text" name="idDest">
+         <br> <label>Id do Produto: </label> <br>
+            <input type="text" name="idProd">
+                        
+        <select name="situacao">
+            <option>A caminho</option>
+            <option>Entregue</option>
+        </select>
+       
+            <button type="submit">Cadastrar</button>          
+    </body>
+</html>
