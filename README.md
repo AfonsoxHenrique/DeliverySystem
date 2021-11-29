@@ -1,3 +1,23 @@
 # tartarugaCometa
 
-O projeto tem como intuito criar uma aplicação Java WEB 
+O projeto tem como intuito criar uma aplicação Java WEB que permita realizar uma entrega.
+
+## Tecnologias usadas
+
+• JDK 1.8 
+• Tomcat 8
+• MySQL
+• Apache NetBeans 12.5
+• XAMPP
+• Java
+• HTML
+
+## Instruções
+
+Banco de dados: Para usar o banco é preciso baixar o XAMPP, iniciar o Apache e logo em seguida o MySQL. Não consegui usar o Workbench do MySQL, pois o meu sistema operacional não o suporta. Também disponibilizei um arquivo .SQL que contém toda a codificação do Banco de Dados. Para usar, basta criar uma DataBase e importá-lo dentro do MySQL. (Criar uma DataBase com o nome de: tartarugacometa) 
+
+IDE: De preferência usar o NetBeans para não ocorrer algum erro.
+
+## Considerações finais
+
+Tive muitas ideias que gostaria de aplicar nesse projeto, mas a maioria envolvia um conhecimento até avançado do FrontEnd, coisa que não tenho. Então não consegui aplicar muitas das coisas que queria.
