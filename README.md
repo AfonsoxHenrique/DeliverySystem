@@ -29,6 +29,8 @@ O sistema contém a opção para listar todos os componentes, dentro da opção 
 
 Para a conexão com o banco, é preciso baixar a livraria "mysql-connector-java-5.1.47.jar" e adicioná-la ao projeto, pois ela não é nativa.
 
+Para realizar a entrega, bastar ir para a página de editar uma entrega e mudar a "Situação" da mesma.
+
 • Banco de dados: Para usar o banco é preciso baixar o XAMPP, iniciar o Apache e logo em seguida o MySQL. Não consegui usar o Workbench do MySQL, pois o meu sistema operacional não o suporta. Também disponibilizei um arquivo .SQL que contém toda a codificação do Banco de Dados. Para usar, basta criar uma DataBase e importá-lo dentro do MySQL. (Criar uma DataBase com o nome de: tartarugacometa) 
 
 • IDE: De preferência usar o NetBeans para não ocorrer algum erro.
